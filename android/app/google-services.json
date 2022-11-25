@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "159970368612",
+    "project_id": "sunglasses-c6c22",
+    "storage_bucket": "sunglasses-c6c22.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:159970368612:android:c1c250268443cdbcf99371",
+        "android_client_info": {
+          "package_name": "com.example.sunglasses"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "159970368612-9upv0hj5hv8vpokpga7ajdrf6laumhv5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC71auOLOOogZIouZ2TEsiDiNAAPzSRiLk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "159970368612-9upv0hj5hv8vpokpga7ajdrf6laumhv5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
