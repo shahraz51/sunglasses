@@ -45,7 +45,11 @@ class Sub_CategoryWidget extends StatelessWidget {
     return Card(
       margin: EdgeInsets.all(10),
       child: ListTile(
-        onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => Sub_Sub_Categorylist( Sub_Category_Id),)),
+        onTap: () => Navigator.push(
+            context,
+            MaterialPageRoute(
+              builder: (context) => is_Sub_Sub_Category(Sub_Category_Id),
+            )),
         leading: CircleAvatar(
           backgroundImage: NetworkImage(url),
         ),
