@@ -1,6 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:sunglasses/Admin/admin.dart';
+import 'package:sunglasses/screen/Home_page.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -16,12 +16,11 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
           scaffoldBackgroundColor: const Color(0xFFf8f3f7),
-          primaryColor: Colors.blueGrey,
+          primaryColor: Colors.indigo.shade300,
           primarySwatch: Colors.indigo,
-          iconTheme: const IconThemeData(color: Colors.blueGrey),
           textTheme: const TextTheme(
               headline1: TextStyle(fontSize: 50, color: Colors.black26))),
-      home: const Admin(),
+      home: const Home_page(),
     );
   }
 }
